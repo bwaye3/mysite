@@ -1,0 +1,38 @@
+name: 'Features Lozin'
+description: 'Features Lozin - Import content type, field, view ... for Lozin theme'
+type: module
+core: 8.x
+dependencies:
+  - better_exposed_filters
+  - block
+  - block_visibility_groups
+  - comment
+  - ctools
+  - datetime
+  - field
+  - file
+  - filter
+  - gavias_content_builder
+  - gavias_view
+  - gaviasthemer
+  - google_map_field
+  - image
+  - imce
+  - menu_ui
+  - node
+  - options
+  - path
+  - pathauto
+  - rdf
+  - simplenews
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+  - webform
+  - config_update
+  - features
+  - admin_toolbar
+version: 8.x-1.0
