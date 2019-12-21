@@ -1,0 +1,24 @@
+uuid: f44b4f78-df16-45a5-a29a-bb8cfea08049
+langcode: en
+status: true
+dependencies:
+  module:
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_messages
+theme: gavias_lozin
+region: help
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

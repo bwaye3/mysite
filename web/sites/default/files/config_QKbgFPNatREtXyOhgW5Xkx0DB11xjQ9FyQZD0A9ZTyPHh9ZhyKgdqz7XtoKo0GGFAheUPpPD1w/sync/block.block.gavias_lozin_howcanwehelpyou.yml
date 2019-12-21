@@ -1,0 +1,41 @@
+uuid: 09c28420-91b1-4297-8fc2-6def2dbf900d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f41634fc-4c30-48a7-b5c2-c3e4709c65f1'
+  module:
+    - block_content
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_howcanwehelpyou
+theme: gavias_lozin
+region: sidebar_right
+weight: -4
+provider: null
+plugin: 'block_content:f41634fc-4c30-48a7-b5c2-c3e4709c65f1'
+settings:
+  id: 'block_content:f41634fc-4c30-48a7-b5c2-c3e4709c65f1'
+  label: 'How can we help you ?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/services\r\n/services-page\r\n/blogs-masonry\r\n/blogs-grid\r\n/portfolio\r\n/portfolio-1\r\n/portfolio-2\r\n/portfolio-3\r\n/user/*"
+    negate: true
+    context_mapping: {  }
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

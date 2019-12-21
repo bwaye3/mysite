@@ -1,0 +1,23 @@
+uuid: d3882cde-ac9d-4125-9081-34494957632f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LPofDwYUMMnzGNcz13lkOta93XqmUPNgYj7-svWy-b0
+id: node.field_listing_facebook
+field_name: field_listing_facebook
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

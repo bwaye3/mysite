@@ -1,0 +1,29 @@
+uuid: 0a99ccfb-b434-4345-97e6-53652ca78304
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7da38301-272f-4979-8de1-06b564010f17'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_contactinfo
+theme: gavias_lozin
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+settings:
+  id: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+  label: 'Contact info'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

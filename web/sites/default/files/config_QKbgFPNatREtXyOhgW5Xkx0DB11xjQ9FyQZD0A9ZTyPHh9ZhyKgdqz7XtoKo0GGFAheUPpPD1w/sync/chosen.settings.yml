@@ -1,0 +1,17 @@
+minimum_single: 3
+minimum_multiple: 3
+disable_search_threshold: 3
+minimum_width: null
+jquery_selector: 'select:visible, select#edit-field-listing-category-target-id'
+search_contains: false
+disable_search: false
+allow_single_deselect: false
+placeholder_text_multiple: 'Choose some options'
+placeholder_text_single: 'Choose an option'
+no_results_text: 'No results match'
+disabled_themes:
+  seven: '0'
+  gavias_lozin: '0'
+chosen_include: 2
+_core:
+  default_config_hash: JUHKHJeHl1bWXY41HMIcDR-VmAWvJ4OJycDubCkIeDU

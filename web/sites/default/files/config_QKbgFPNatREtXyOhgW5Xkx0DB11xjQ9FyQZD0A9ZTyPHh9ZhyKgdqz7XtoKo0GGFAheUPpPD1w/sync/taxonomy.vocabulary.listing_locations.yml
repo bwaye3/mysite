@@ -1,0 +1,10 @@
+uuid: d1c036c9-f279-4aaf-b89e-d778d5ae9cb2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UmxejX1uax5hbZKSZ-oOxlrBwrLGegh3tv9Pn6Emzo8
+name: 'Listing Locations'
+vid: listing_locations
+description: ''
+weight: 0

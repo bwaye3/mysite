@@ -1,0 +1,29 @@
+uuid: e10daee4-feb3-4b13-b7b2-09060f657fc5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_topbar
+theme: gavias_lozin
+region: topbar
+weight: 0
+provider: null
+plugin: 'block_content:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
+settings:
+  id: 'block_content:a87cb642-bb80-4bd8-9bb0-ed5e2d4da5e0'
+  label: Topbar
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

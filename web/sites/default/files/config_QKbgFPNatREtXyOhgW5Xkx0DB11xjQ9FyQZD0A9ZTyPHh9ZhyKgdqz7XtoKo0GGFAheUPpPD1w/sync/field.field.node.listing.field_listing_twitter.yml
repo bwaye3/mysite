@@ -1,0 +1,21 @@
+uuid: decd8c26-377e-46b3-b6b1-b48a2f1ab2d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_listing_twitter
+    - node.type.listing
+_core:
+  default_config_hash: LyhzsdiB_asyj0MtxgHz9juyJ7fmL3EodCvHgAwd40A
+id: node.listing.field_listing_twitter
+field_name: field_listing_twitter
+entity_type: node
+bundle: listing
+label: 'Social Twitter'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

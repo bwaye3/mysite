@@ -1,0 +1,21 @@
+uuid: d63f1a7a-4d66-48dc-9841-7f07569d3138
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: kUOrdYNtvGwoLH6GDYAJTl3z5SP8MK_6xL_t3dYz9Xc
+id: node.field_listing_time
+field_name: field_listing_time
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

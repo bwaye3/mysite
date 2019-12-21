@@ -1,0 +1,21 @@
+uuid: 74cc19c7-2bf3-48da-9896-f2626742dfe4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fk_Q-wHj3yQVC8WnMDbPxL3AEqFPfz0xg4AIeRe9-nQ
+id: node.field_listing_address
+field_name: field_listing_address
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

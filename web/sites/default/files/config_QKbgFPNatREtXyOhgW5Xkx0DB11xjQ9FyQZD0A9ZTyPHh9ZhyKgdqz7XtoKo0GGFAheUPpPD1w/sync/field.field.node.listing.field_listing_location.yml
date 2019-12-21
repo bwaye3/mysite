@@ -1,0 +1,31 @@
+uuid: 8d7976ee-3534-4d43-aa03-4b8c2f46e28a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_listing_location
+    - node.type.listing
+    - taxonomy.vocabulary.listing_locations
+_core:
+  default_config_hash: pVwoaoW6_0btuwLrqI1Iw7WxY-7tRbcE35F5pbOjS5k
+id: node.listing.field_listing_location
+field_name: field_listing_location
+entity_type: node
+bundle: listing
+label: 'Listing Location'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      listing_locations: listing_locations
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

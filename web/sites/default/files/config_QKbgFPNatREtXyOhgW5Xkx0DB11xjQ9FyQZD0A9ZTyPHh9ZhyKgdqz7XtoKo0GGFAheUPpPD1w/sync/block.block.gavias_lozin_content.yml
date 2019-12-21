@@ -1,0 +1,22 @@
+uuid: 11a93ab8-b07a-43f7-9e86-7cfc4b4f6229
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gavias_lozin
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: gavias_lozin_content
+theme: gavias_lozin
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,36 @@
+uuid: 8c4de2b8-71ec-4b75-9190-9f05c4c312a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_listing_price
+field_name: field_listing_price
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: $
+      label: $
+    -
+      value: $$
+      label: $$
+    -
+      value: $$$
+      label: $$$
+    -
+      value: $$$$
+      label: $$$$
+    -
+      value: $$$$$
+      label: $$$$$
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: e06a57c3-9698-4ff8-955f-e2c3e85a0b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_mainnavigation
+theme: gavias_lozin
+region: main_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

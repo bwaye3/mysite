@@ -1,0 +1,21 @@
+uuid: 84e55267-f093-49af-96f8-58f13aadb488
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_listing_linkedin
+    - node.type.listing
+_core:
+  default_config_hash: RybFd68EvVSCD1-cGQvNgaHIHmceyIFbilo0m2p8Tw8
+id: node.listing.field_listing_linkedin
+field_name: field_listing_linkedin
+entity_type: node
+bundle: listing
+label: 'Social Linkedin'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

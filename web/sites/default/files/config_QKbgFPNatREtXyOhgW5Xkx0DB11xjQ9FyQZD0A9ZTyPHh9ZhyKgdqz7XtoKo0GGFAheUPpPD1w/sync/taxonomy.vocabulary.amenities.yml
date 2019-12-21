@@ -1,0 +1,10 @@
+uuid: 8d2e7dcd-3fe1-4419-842e-5edc3a6127a6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: N4fC-n64JF0SFoY51Mvqkm_YW9_67Zws0NC6gT8F-Bw
+name: 'Listing Amenities'
+vid: amenities
+description: ''
+weight: 0

@@ -1,0 +1,46 @@
+uuid: 4d5483cb-ab8c-4aaa-b04d-9c7ab6900ed1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - twitter_block
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: twitterblock
+theme: gavias_lozin
+region: footer_third
+weight: 0
+provider: null
+plugin: twitter_block
+settings:
+  id: twitter_block
+  label: 'Twitter block'
+  provider: twitter_block
+  label_display: visible
+  username: gaviasthemes
+  theme: dark
+  link_color: fbb122
+  width: ''
+  height: ''
+  chrome:
+    noheader: noheader
+    nofooter: nofooter
+    noborders: noborders
+    noscrollbar: noscrollbar
+    transparent: transparent
+  border_color: ''
+  language: ''
+  tweet_limit: '2'
+  related: ''
+  polite: polite
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

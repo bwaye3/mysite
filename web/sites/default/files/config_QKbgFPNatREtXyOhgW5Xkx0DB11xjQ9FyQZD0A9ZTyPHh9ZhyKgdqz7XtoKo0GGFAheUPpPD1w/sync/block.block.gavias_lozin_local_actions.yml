@@ -1,0 +1,20 @@
+uuid: 88cba2d4-595f-426a-9f92-acb96fed9659
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_lozin
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gavias_lozin_local_actions
+theme: gavias_lozin
+region: help
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

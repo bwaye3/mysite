@@ -1,0 +1,22 @@
+uuid: 1f3bd27d-3d86-4e67-bb02-c2469e2f4006
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gavias_lozin
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gavias_lozin_help
+theme: gavias_lozin
+region: help
+weight: -11
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

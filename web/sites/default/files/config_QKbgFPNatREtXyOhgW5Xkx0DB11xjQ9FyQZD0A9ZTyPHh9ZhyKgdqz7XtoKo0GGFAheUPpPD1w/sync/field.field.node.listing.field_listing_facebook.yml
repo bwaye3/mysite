@@ -1,0 +1,21 @@
+uuid: c36c42a6-1f5b-4522-a7b9-6d3548fbbdd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_listing_facebook
+    - node.type.listing
+_core:
+  default_config_hash: 1axiPuhXGoUCyGrTM6kwOOdeMsVNsJGVPnTMqvKi_P0
+id: node.listing.field_listing_facebook
+field_name: field_listing_facebook
+entity_type: node
+bundle: listing
+label: 'Social Facebook'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

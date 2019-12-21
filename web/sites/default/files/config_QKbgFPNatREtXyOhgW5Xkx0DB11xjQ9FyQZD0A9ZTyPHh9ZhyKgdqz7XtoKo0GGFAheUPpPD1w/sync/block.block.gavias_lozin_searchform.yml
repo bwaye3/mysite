@@ -1,0 +1,25 @@
+uuid: 2178fb0e-dbce-467c-a3dd-397964ab6d4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - gaviasthemer
+    - search
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_searchform
+theme: gavias_lozin
+region: search
+weight: -13
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

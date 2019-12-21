@@ -1,0 +1,23 @@
+uuid: c872d3b3-b426-4ea7-a2ed-a25afad2d688
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: EPYwauyngP4-IDl3xFdq0W6rJn50KmxWUEWos1YKeVs
+id: node.field_listing_twitter
+field_name: field_listing_twitter
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

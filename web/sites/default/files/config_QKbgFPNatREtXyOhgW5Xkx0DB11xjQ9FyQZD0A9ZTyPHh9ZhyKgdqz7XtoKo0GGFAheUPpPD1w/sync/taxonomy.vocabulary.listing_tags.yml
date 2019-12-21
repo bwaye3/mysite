@@ -1,0 +1,10 @@
+uuid: 9a595b9b-4b63-4977-a290-0b772462897a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jKAFuNLdECvgACw129YPvpPtNCyvxLZV_-WqfWd3KNk
+name: 'Listing Tags'
+vid: listing_tags
+description: ''
+weight: 0

@@ -1,0 +1,34 @@
+uuid: 74a52cd3-5220-4bbb-b7ef-1b97bfccf597
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - simplenews
+  theme:
+    - gavias_lozin
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_lozin_simplenewssubscription
+theme: gavias_lozin
+region: footer_four
+weight: -15
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Subscribe our newsletter'
+  provider: simplenews
+  label_display: visible
+  newsletters:
+    default: default
+  message: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos.'
+  unique_id: 763feca6-91c6-48be-a713-93d5261f5aa3
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

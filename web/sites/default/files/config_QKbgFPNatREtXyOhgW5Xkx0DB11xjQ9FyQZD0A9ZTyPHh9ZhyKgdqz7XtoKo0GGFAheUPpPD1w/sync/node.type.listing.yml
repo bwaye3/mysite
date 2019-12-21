@@ -1,0 +1,20 @@
+uuid: 300e8784-7de3-467a-bfb5-3bbc7ea46ae8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: BhB9Bdk5pEVRPlEpNKFN_PqX2eBZvx2bXnRO8OrguZ8
+name: Listing
+type: listing
+description: 'Custom content type for adding listings into directory. This type has defined listing''s custom fields and taxonomies.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

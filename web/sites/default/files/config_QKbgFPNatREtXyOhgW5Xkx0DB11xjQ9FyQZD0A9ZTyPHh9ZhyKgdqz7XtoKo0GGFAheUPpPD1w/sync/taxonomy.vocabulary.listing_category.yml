@@ -1,0 +1,10 @@
+uuid: 6e9b1dc5-804c-4dec-8a38-23f3bf85759e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZQrSWkNkPXzO6vvzhysfw1hKsF9oTDvNs_fS00Cep78
+name: 'Listing Category'
+vid: listing_category
+description: ''
+weight: 0
